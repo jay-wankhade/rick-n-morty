@@ -10,6 +10,7 @@ import Episode from "./pages/episode"
 import Location from "./pages/location"
 import CardDetails from './components/card/carddetails'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import React from "react"
 
 
 function App() {

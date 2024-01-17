@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import styles from './card.module.scss'
-import gender from '../filter/Category/gender';
-import species from '../filter/Category/species';
+
 
 const card = ({ results, page }) => {
     let display;

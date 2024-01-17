@@ -14,7 +14,7 @@ const filter = ({setStatus, setSpecies,setPageNumber, setGender}) => {
   return (
     <div className='col-lg-3 col-12 mb-4'>
       <div className='text-center fs-4 fw-bold mb-2'>Filters</div>
-      <div style={{cursor : 'pointer'}} onClick={clear} className='text-center text-decoration-underline text-primary mb-4'>Clear Filter</div>'
+      <div style={{cursor : 'pointer'}} onClick={clear} className='text-center text-decoration-underline text-primary mb-4'>Clear Filter</div>
       <div className="accordion" id="accordionExample">
       <Gender setGender={setGender} setPageNumber={setPageNumber}/>
         <Status setStatus={setStatus} setPageNumber={setPageNumber}/>
